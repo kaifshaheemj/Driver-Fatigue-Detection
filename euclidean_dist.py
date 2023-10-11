@@ -1,9 +1,10 @@
+#Driver Fatigue Detection project 
+
 import dlib
 import cv2
 import numpy as np
 import pandas as pd
 import os
-
 
 # Initialize dlib's face detector (HOG-based) and facial landmark predictor
 detector = dlib.get_frontal_face_detector()
