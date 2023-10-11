@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Driver-Fatigue-Detection",
+			"path": "Driver-Fatigue-Detection/Driver-Fatigue-Detection"
+		}
+	],
+	"settings": {}
+}
