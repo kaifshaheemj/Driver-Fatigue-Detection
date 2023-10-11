@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import os
 
+
 # Initialize dlib's face detector (HOG-based) and facial landmark predictor
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor(r"B:\ML\Driver Fatigue\driver_drowsy\shape_predictor_68_face_landmarks.dat")
