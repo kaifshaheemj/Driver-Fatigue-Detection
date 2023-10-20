@@ -1,3 +1,5 @@
+#This Code is to make the Dataset "three_parameter.csv"
+#Which Created by the Calculating of the Images 
 import cv2
 import dlib
 import csv
@@ -87,8 +89,6 @@ for P in dict:
 cv2.imshow("Drowsy Face Detection",image)
 cv2.waitKey(0)
 cv2.destroyAllWindows
-
-#print(LM_A,LM_B,LM_C,Class)
 
 print("LM_A:",len(LM_A))
 print("LM_A:",len(LM_B))
